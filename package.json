@@ -19,7 +19,7 @@
   "scripts": {
     "start": "TSC_COMPILE_ON_ERROR=true ESLINT_NO_DEV_ERRORS=true node_modules/react-app-rewired/bin/index.js start",
     "build": "DISABLE_ESLINT_PLUGIN=true node_modules/react-app-rewired/bin/index.js build",
-    "test": "node_modules/react-app-rewired/bin/index.js test --watchAll=false",
+    "test": "node_modules/react-app-rewired/bin/index.js test --watchAll=false --passWithNoTests",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{ts,tsx}\" && stylint src"
   },
