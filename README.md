@@ -10,7 +10,7 @@ A simple service to keep track of a freelancer's income. Main project stack: Rea
 
 ## Demo
 
-Coming soon...
+https://master.d2e2bpzttadvz9.amplifyapp.com/
 
 ## Available Scripts
 
