@@ -1,0 +1,108 @@
+{
+  "rules": {
+    "blocks": {
+      "expect": false,
+      "error": true
+    },
+    "brackets": {
+      "expect": "always",
+      "error": true
+    },
+    "colons": {
+      "expect": "always",
+      "error": true
+    },
+    "colors": {
+      "expect": "always",
+      "error": true
+    },
+    "commaSpace": {
+      "expect": "always",
+      "error": true
+    },
+    "commentSpace": {
+      "expect": "always",
+      "error": true
+    },
+    "cssLiteral": {
+      "expect": "alneverays",
+      "error": true
+    },
+    "depthLimit": {
+      "expect": false,
+      "error": true
+    },
+    "efficient": {
+      "expect": "always",
+      "error": true
+    },
+    "insertSpaces": {
+      "expect": true,
+      "error": true
+    },
+    "extendPref": {
+      "expect": false,
+      "error": true
+    },
+    "indentPref": {
+      "expect": 2,
+      "error": true
+    },
+    "parenSpace": {
+      "expect": false,
+      "error": true
+    },
+    "placeholders": {
+      "expect": "always",
+      "error": true
+    },
+    "prefixVarsWithDollar": {
+      "expect": "always",
+      "error": true
+    },
+    "quotePref": {
+      "expect": "single",
+      "error": true
+    },
+    "semicolons": {
+      "expect": "never",
+      "error": true
+    },
+    "stackedProperties": {
+      "expect": "never",
+      "error": true
+    },
+    "trailingWhitespace": {
+      "expect": "never",
+      "error": true
+    },
+    "universal": {
+      "expect": false,
+      "error": true
+    },
+    "valid": {
+      "expect": true,
+      "error": true
+    },
+    "duplicates": {
+      "expect": true,
+      "error": true
+    },
+    "globalDupe": false,
+    "exclude": [],
+    "zIndexNormalize": false,
+    "maxErrors": false,
+    "groupOutputByFile": true,
+    "mixed": false,
+    "mixins": [],
+    "namingConventionStrict": false,
+    "noImportant": false,
+    "reporterOptions": {
+      "columns": ["lineData", "severity", "description", "rule"],
+      "columnSplitter": "  ",
+      "showHeaders": false,
+      "truncate": true,
+      "defaultSeverity": "warning"
+    }
+  }
+}
