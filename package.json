@@ -21,7 +21,7 @@
     "build": "DISABLE_ESLINT_PLUGIN=true node_modules/react-app-rewired/bin/index.js build",
     "test": "node_modules/react-app-rewired/bin/index.js test --watchAll=false",
     "eject": "react-scripts eject",
-    "lint": "eslint src/** --ext tsx --ext ts test && stylint src"
+    "lint": "eslint \"src/**/*.{ts,tsx}\" && stylint src"
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +55,6 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "react-app-rewired": "^2.2.1",
-    "stylelint": "^16.6.1"
+    "stylint": "^2.0.0"
   }
 }

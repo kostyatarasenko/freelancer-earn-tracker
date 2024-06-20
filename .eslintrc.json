@@ -124,13 +124,11 @@
       }
     ],
     "no-restricted-globals": [2, "event"],
-    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+    "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx"] }],
     "import/extensions": [
       "error",
       "ignorePackages",
       {
-        "js": "never",
-        "jsx": "never",
         "ts": "never",
         "tsx": "never"
       }
