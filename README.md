@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[![CI](https://github.com/kostyatarasenko/freelancer-earn-tracker-webapp/actions/workflows/ci.yml/badge.svg)](https://github.com/kostyatarasenko/freelancer-earn-tracker-webapp/actions/workflows/ci.yml)
+
 ## About
 
 A simple service to keep track of a freelancer's income. Main project stack: React, Typescript, AWS Amplify.
